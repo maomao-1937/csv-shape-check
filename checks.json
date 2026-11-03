@@ -1,0 +1,8 @@
+[
+  {"args": ["csv_shape_check.py", "examples/clean.csv"], "exit": 0},
+  {"args": ["csv_shape_check.py", "examples/findings.csv"], "exit": 1},
+  {"args": ["csv_shape_check.py", "examples/invalid.csv"], "exit": 2},
+  {"args": ["csv_shape_check.py", "examples/no-header.csv", "--no-header"], "exit": 0},
+  {"args": ["csv_shape_check.py", "examples/quoted.csv"], "exit": 0},
+  {"args": ["csv_shape_check.py", "--help"], "exit": 0}
+]
